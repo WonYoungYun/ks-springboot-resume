@@ -7,6 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ResumeController {
 
+    // '/' ==> list
+    // '/register' ==> create
+    // '/{rno} ==> view
+    // '/{rno}/update ==> update'
+    // '/{rno}/delete ==> delete'
+
     @GetMapping("/")
     public String resumeIndex(Model model) {
         Resume resume = new Resume();
@@ -15,7 +21,6 @@ public class ResumeController {
         return "index";
     }
 
-    // experience
 
 
 }

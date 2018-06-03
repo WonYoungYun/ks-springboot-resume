@@ -18,6 +18,11 @@
   - experience 전체 출력(1점)
   - experience 수정(1점)
   - experience 삭제(1점)
+  - URL
+    - `/register` --> experience create
+    - `/{rno}` --> view
+    - `/{rno}/update` --> update
+    - `/{rno}/delete` --> delete
 
 ## 추가 요구 사항(옵션)
 * 하나의 `index.html`로 구성된 것은 `resume.html`과 `experience.html` 등으로 분리하여 제출(1점)
